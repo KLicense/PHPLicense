@@ -1,0 +1,25 @@
+{
+    "name": "kseven/klicense",
+    "description": "KLicense API",
+    "keywords": [
+        "licese",
+        "licese api"
+    ],
+    "license": "Private",
+    "authors": [
+        {
+            "name": "K'Seven",
+            "email": "anjsuporte@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4",
+        "illuminate/support": "^6.0 |^7.0|^8.0|^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "KSeven\\License\\": "src/"
+        }
+    },
+    "minimum-stability": "stable"
+}
