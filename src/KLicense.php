@@ -3,7 +3,7 @@
 namespace KSeven\License;
 
 
-use KSeven\License\Config\Config;
+use KSeven\License\Config\License;
 use KSeven\License\System\BaseLib;
 
 class KLicense extends BaseLib
@@ -12,14 +12,14 @@ class KLicense extends BaseLib
     public function __construct()
     {
 
-        $config = new Config();
+        $config = new License();
 
         $SSL = $config->SSL;
 
         $Date = [
-            "PRODUCTID" => "",
-            "URL"   => "",
-            "KEY"   => "",
+            "PRODUCTID" => $config->ProductID,
+            "URL"   => $config->URL,
+            "KEY"   => $config->KEY,
             "LANGUAGE"  => $config->Lang,
             "VERSION"   => $config->Version,
             "ENVATO" => $config->Envato,
