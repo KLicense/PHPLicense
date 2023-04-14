@@ -17,9 +17,9 @@ class KLicense extends BaseLib
         $SSL = $config->SSL;
 
         $Date = [
-            "PRODUCTID" => "F45F54B3",
-            "URL"   => "manager.kseven.dev.br",
-            "KEY"   => "BCAF5CC39EB38ED14BC1",
+            "PRODUCTID" => "",
+            "URL"   => "",
+            "KEY"   => "",
             "LANGUAGE"  => $config->Lang,
             "VERSION"   => $config->Version,
             "ENVATO" => $config->Envato,
